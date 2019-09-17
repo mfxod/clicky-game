@@ -1,7 +1,8 @@
-import React, { Component } from "react"
+import React from "react"
 
-class Score extends Component {
+// function Score(props) {
+//     return (
+//     )
+// }
     
-}
-
 export default Score

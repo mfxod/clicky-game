@@ -1,16 +1,16 @@
-import React, { Component } from "react"
+import React from "react"
 
-class Card extends Component {
-    // state = {
-    // }
-
-    // functions
-
-    render() {
-      return (
-        // stuff
-      )
-    }    
+function Card(props) {
+    return (
+      <div className="card">
+        <div className="img-container">
+          <img alt={props.name} src={props.image} />
+        </div>
+        {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
+          𝘅
+        </span> */}
+      </div>
+    )
 }
-
+    
 export default Card
