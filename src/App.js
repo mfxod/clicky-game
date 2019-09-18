@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import Wrapper from './components/Wrapper'
-// import Score from './components/Score'
-import Card from './components/Card'
+import Score from './components/Score/index'
+import Card from './components/Card/index'
 import symbols from './symbols.json'
 
 class App extends Component {
@@ -14,6 +14,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+        <Score />
         {this.state.symbols.map(symbol => (
           <Card
             id={symbol.id}
