@@ -4,14 +4,15 @@
 	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
-	.st1{fill:#E86412;}
-	.st2{fill:#CCC4BF;}
+	.st1{fill:#FF7200;}
+	.st2{fill:#00E0FF;}
+	.st3{fill:#FFC000;}
 </style>
 <g>
 	<rect class="st0" width="200" height="200"/>
 	<g>
-		<polygon class="st1" points="100,171.3 25,116.8 53.6,28.7 146.4,28.7 175,116.8 		"/>
-		<polyline class="st2" points="53.6,28.7 100,171.3 146.4,28.7 		"/>
+		<polygon class="st2" points="100,171.3 25,116.8 53.6,28.7 146.4,28.7 175,116.8 		"/>
+		<polyline class="st3" points="53.6,28.7 100,171.3 146.4,28.7 		"/>
 	</g>
 </g>
 </svg>
