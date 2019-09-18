@@ -1,62 +1,62 @@
 [
     {
         "id": "1",
-        "name": "SB",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014"
+        "name": "symbol 1",
+        "image": "/images/symbols-01.svg"
     },
     {
         "id": "2",
-        "name": "star",
-        "image": "../public/images/star.png"
+        "name": "symbol 2",
+        "image": "/images/symbols-02.svg"
     },
     {
         "id": "3",
-        "name": "",
-        "image": "../public/images/"
+        "name": "symbol 3",
+        "image": "/images/symbols-03.svg"
     },
     {
         "id": "4",
-        "name": "",
-        "image": "../public/images/"
+        "name": "symbol 4",
+        "image": "/images/symbols-04.svg"
     },
     {
         "id": "5",
-        "name": "",
-        "image": "../public/images/"
+        "name": "symbol 5",
+        "image": "/images/symbols-05.svg"
     },
     {
         "id": "6",
-        "name": "",
-        "image": "../public/images/"
+        "name": "symbol 6",
+        "image": "/images/symbols-06.svg"
     },
     {
         "id": "7",
-        "name": "",
-        "image": "../public/images/"
+        "name": "symbol 7",
+        "image": "/images/symbols-07.svg"
     },
     {
         "id": "8",
-        "name": "",
-        "image": "../public/images/"
+        "name": "symbol 8",
+        "image": "/images/symbols-08.svg"
     },
     {
         "id": "9",
-        "name": "",
-        "image": "../public/images/"
+        "name": "symbol 9",
+        "image": "/images/symbols-09.svg"
     },
     {
         "id": "10",
-        "name": "",
-        "image": "../public/images/"
+        "name": "symbol 10",
+        "image": "/images/symbols-10.svg"
     },
     {
         "id": "11",
-        "name": "",
-        "image": "../public/images/"
+        "name": "symbol 11",
+        "image": "/images/symbols-11.svg"
     },
     {
         "id": "12",
-        "name": "",
-        "image": "../public/images/"
+        "name": "symbol 12",
+        "image": "/images/symbols-12.svg"
     }
 ]
