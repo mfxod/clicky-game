@@ -1,20 +1,19 @@
 import React, { Component } from "react"
 import Wrapper from './components/Wrapper'
-import Score from './components/Score/index'
 import Card from './components/Card/index'
 import symbols from './symbols.json'
 
 class App extends Component {
   state = {
-    symbols
-    // ,
-    // alreadyClicked = [],
-    // score = 0,
-    // highScore = 0
+    symbols,
+    alreadyClicked: [],
+    score: 0,
+    allScores: [],
+    highScore: 0
   }
 
-  // SHUFFLING IMAGES
-  // try to make this a higher order function instead...
+  // SHUFFLE IMAGES
+  // make this a higher order function instead...
   shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
       const swapIndex = Math.floor(Math.random() * (i + 1))
@@ -26,29 +25,36 @@ class App extends Component {
     return array
   } 
 
-  // CHECK IF IMG WAS ALREADY CLICKED
-  alreadyClicked() {
-
-  }
-
   clickImage = id => {
     console.log("testing... card clicked: " + id)
-    // if (this.alreadyClicked does contain clicked id) {
-    //   alert somehow
-    //   do high score logic
-    //   reset score
-    // } else {
-    //   add clicked id to alreadyClicked array
-    //   increment score
-    //   setState
-    // }
-    this.setState(this.shuffle(symbols))
+    if (this.state.alreadyClicked.indexOf(id) !== -1) {
+      console.log("Already Clicked!")
+      this.state.allScores.push(this.state.score)
+      console.log(this.state.allScores)
+      this.setState({
+        highScore: Math.max(...this.state.allScores),
+        score: 0,
+        alreadyClicked: []
+      })
+    } else {
+      this.state.alreadyClicked.push(id)
+      this.setState({
+        symbols: this.shuffle(symbols),
+        score: this.state.alreadyClicked.length
+      },
+        console.log(this.state)
+      )  
+    }
   }
 
   render() {
     return (
       <Wrapper>
-        <Score />
+        <div className="navbar sticky-top" style={{display: "block", textAlign: "center"}}>
+            <h4>Click an image to earn a point. Remember not to click it more than once!</h4>
+            <h2>Score: {this.state.score} | High Score: {this.state.highScore}</h2>
+        </div>
+
         {this.state.symbols.map(symbol => (
           <Card
             clickImage={this.clickImage}
