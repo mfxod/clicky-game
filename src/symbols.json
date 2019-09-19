@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "symbol 1",
-        "image": "/images/symbols-01.svg"
+        "image": "/images/symbols01.svg"
     },
     {
         "id": "2",
@@ -57,6 +57,6 @@
     {
         "id": "12",
         "name": "symbol 12",
-        "image": "/images/symbols-12.svg"
+        "image": "/images/symbols12.gif"
     }
 ]
