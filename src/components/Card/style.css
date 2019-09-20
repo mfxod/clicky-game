@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .card {
     width: 25%;
     padding: 1.5rem;
@@ -8,3 +12,7 @@
 .img-container {
     width: 75%;
 }
+
+/* .img {
+
+} */

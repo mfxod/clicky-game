@@ -2,61 +2,61 @@
     {
         "id": "1",
         "name": "symbol 1",
-        "image": "/images/symbols01.svg"
+        "image": "./images/symbols-01.svg"
     },
     {
         "id": "2",
         "name": "symbol 2",
-        "image": "https://i.postimg.cc/W4jW2k7K/symbols-02.png"
+        "image": "./images/symbols-02.svg"
     },
     {
         "id": "3",
         "name": "symbol 3",
-        "image": "/symbols-03.svg"
+        "image": "./images/symbols-03.svg"
     },
     {
         "id": "4",
         "name": "symbol 4",
-        "image": "/images/symbols-04.svg"
+        "image": "./images/symbols-04.svg"
     },
     {
         "id": "5",
         "name": "symbol 5",
-        "image": "/images/symbols-05.svg"
+        "image": "./images/symbols-05.svg"
     },
     {
         "id": "6",
         "name": "symbol 6",
-        "image": "/images/symbols-06.svg"
+        "image": "./images/symbols-06.svg"
     },
     {
         "id": "7",
         "name": "symbol 7",
-        "image": "/images/symbols-07.svg"
+        "image": "./images/symbols-07.svg"
     },
     {
         "id": "8",
         "name": "symbol 8",
-        "image": "/images/symbols-08.svg"
+        "image": "./images/symbols-08.svg"
     },
     {
         "id": "9",
         "name": "symbol 9",
-        "image": "/images/symbols-09.svg"
+        "image": "./images/symbols-09.svg"
     },
     {
         "id": "10",
         "name": "symbol 10",
-        "image": "/images/symbols-10.svg"
+        "image": "./images/symbols-10.svg"
     },
     {
         "id": "11",
         "name": "symbol 11",
-        "image": "/images/symbols-11.svg"
+        "image": "./images/symbols-11.svg"
     },
     {
         "id": "12",
         "name": "symbol 12",
-        "image": "/images/symbols12.gif"
+        "image": "./images/symbols-12.svg"
     }
 ]
